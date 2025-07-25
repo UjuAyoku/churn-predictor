@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <!-- Theme Persistence Script -->
+  <script>
+    // Apply stored theme preference on load
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
+
+  <div class="min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 w-full max-w-md">
+      
+      <h2 class="text-2xl font-bold text-center mb-6">
+        Prediction: <span class="text-blue-500 dark:text-blue-300">{{ prediction }}</span>
+      </h2>
+
+      <!-- Feedback Form -->
+      <form method="POST" action="/feedback" class="space-y-4">
+        <p class="text-center">Was this prediction helpful?</p>
+
+        <!-- Hidden inputs to capture user input and model output -->
+        <input type="hidden" name="contract" value="{{ contract }}">
+        <input type="hidden" name="internet" value="{{ internet }}">
+        <input type="hidden" name="tenure" value="{{ tenure }}">
+        <input type="hidden" name="monthly" value="{{ monthly }}">
+        <input type="hidden" name="total" value="{{ total }}">
+        <input type="hidden" name="pred_value" value="{{ pred_value }}">
+
+        <!-- Actual outcome dropdown -->
+        <div>
+          <label class="block font-medium mb-1">What was the actual outcome?</label>
+          <select name="actual" class="w-full border border-gray-300 dark:border-gray-600 rounded px-3 py-2 dark:bg-gray-700">
+            <option value="0">Customer Stayed</option>
+            <option value="1">Churned</option>
+            <option value="2">Unknown</option>
+          </select>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex justify-between items-center mt-6">
+          <button type="submit" class="bg-yellow-600 hover:bg-yellow-500 text-white px-4 py-2 rounded">
+            Submit Feedback
+          </button>
+          <a href="/" class="text-blue-600 dark:text-blue-300 hover:underline">Back to Home</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
