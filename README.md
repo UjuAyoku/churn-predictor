@@ -1,5 +1,5 @@
 ## Customer Churn Predictor
-A simple, user-friendly tool that helps telecom companies identify customers at risk of leaving ("churning") so they can take action to keep them.
+A user-friendly tool that helps telecom companies identify customers at risk of leaving ("churning") so they can take action to keep them.
 
 ### Why It Matters
 Losing customers hurts business. This app predicts which customers might leave based on their:
@@ -7,6 +7,7 @@ Losing customers hurts business. This app predicts which customers might leave b
 - Internet service details
 - How long they’ve been with the company
 - Monthly and total charges
+  
 With this insight, companies can offer personalized deals, better support, or incentives to retain customers.
 
 ### How It Works
