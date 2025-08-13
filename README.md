@@ -35,7 +35,7 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
 - Single-click predictions
 
 <a id="prediction-interface"></a>
-## Prediction Interface  
+## App Interface  
 
 ```python
 1. Select from dropdown menus:
