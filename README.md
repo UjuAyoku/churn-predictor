@@ -4,7 +4,7 @@
   <h1>Customer Churn Predictor</h1>
   <h3>A predictive tool that identifies at-risk telecom customers, enabling proactive retention strategies.</h3>
   
-  [![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
+[![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
 
 </div>
 
@@ -13,9 +13,6 @@
 ![Backend](https://img.shields.io/badge/Backend-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/ML-Random_Forest-96%25_FI_Score-blueviolet)
 
-<div align="center">
-  <img src="https://via.placeholder.com/600x400?text=Churn+Predictor+Interface" alt="App Screenshot" width="400">
-</div>
 
 ## Table of Contents
 - [Business Impact](#business-impact)
@@ -27,11 +24,10 @@
 - [Feedback System](#feedback-system)
 
 <a id="why-it-matters"></a>
-## Why It Matters 💡
+## Why It Matters  
 
 Customer churn costs telecom companies **millions of dollars annually**. This tool helps:
-- Identify at-risk customers **before they leave**
-- Reduce churn rate  
+- Identify at-risk customers before they leave and reduce churn rate  
 - Improve customer lifetime value
 - Enable data-driven retention strategies
 
@@ -67,12 +63,12 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
 # Clone repository
 git clone https://github.com/UjuAyoku/churn-predictor.git
 ```
-# Install dependencies
+#### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# Launch application
+#### Launch application
 ```bash
 streamlit run app.py
 ```
@@ -86,6 +82,7 @@ streamlit run app.py
 5. View prediction: "Likely to Churn" or "Likely to Stay"
 
 <a id="technology-stack"></a>
+## Tech Stack
 | Component | Technology |
 |-----------|-------------|
 | Frontend | HTML5, CSS3, JavaScript  |
@@ -96,6 +93,7 @@ streamlit run app.py
 | Deployment | Gunicorn WSGI Server |
 
 <a id="feedback-system"></a>
+## Feedback System
 Help improve the model by choosing the actual outcome from the drop down menu and submitting feedback.
 User corrections are logged to feedback.xlsx with:
 - Original prediction
