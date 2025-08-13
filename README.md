@@ -37,7 +37,6 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
 <a id="prediction-interface"></a>
 ## App Interface  
 
-```python
 1. Select from dropdown menus:
    - Contract Term
    - Internet Service Type
@@ -49,7 +48,7 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
    - "Likely to Stay" or 
    - "Likely to Churn"
 4. Provide feedback if actual outcome is known
-```
+
 
 <a id="installation"></a>
 ## Installation  
