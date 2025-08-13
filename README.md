@@ -11,7 +11,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML5/CSS3/JS-FF5722?style=for-the-badge)
 ![Backend](https://img.shields.io/badge/Backend-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/ML-Random_Forest-96%25_FI_Score-blueviolet)
+![Machine Learning](https://img.shields.io/badge/ML-Random_Forest-96%25_FI-blueviolet?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 
 ## Table of Contents
