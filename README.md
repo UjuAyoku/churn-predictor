@@ -58,6 +58,7 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
    - "Likely to Stay" or 
    - "Likely to Churn"
 4. Provide feedback if actual outcome is known
+```
 
 <a id="installation"></a>
 ## Installation  
@@ -65,12 +66,16 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
 ```bash
 # Clone repository
 git clone https://github.com/UjuAyoku/churn-predictor.git
-
+```
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # Launch application
+```bash
 streamlit run app.py
+```
 
 <a id="usage"></a>
 ## Usage
