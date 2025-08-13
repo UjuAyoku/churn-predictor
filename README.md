@@ -21,13 +21,14 @@
 ## Why It Matters  
 
 Customer churn costs telecom companies **millions of dollars annually**. This tool helps:
-- Identify at-risk customers before they leave and reduce churn rate  
+- Identify at-risk customers before they leave to reduce churn rate  
 - Improve customer lifetime value
 - Enable data-driven retention strategies
 
 > "A 5% increase in retention can increase profits by 95%" - [Bain & Company](https://www.bain.com/insights/retaining-customers-is-the-real-challenge/)
 
 <a id="key-features"></a>
+## Features
 - Real-time churn probability assessment
 - User-friendly interface with dark/light mode toggle
 - Feedback system to improve model accuracy
