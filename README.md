@@ -14,13 +14,12 @@
 ## Table of Contents
 - [Business Impact](#business-impact)
 - [Key Features](#key-features)
-- [Prediction Interface](#prediction-interface)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technology Stack](#technology-stack)
+- [Installation](#installation)
 - [Feedback System](#feedback-system)
 
-<a id="why-it-matters"></a>
+<a id="business-impact"></a>
 ## Why It Matters  
 
 Customer churn costs telecom companies **millions of dollars annually**. This tool helps:
@@ -37,22 +36,33 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
 - Feedback system to improve model accuracy
 - Single-click predictions
 
-<a id="prediction-interface"></a>
-## App Interface  
 
-1. Select from dropdown menus:
+<a id="usage"></a>
+## Usage
+1. Select customer parameters from dropdowns
    - Contract Term
    - Internet Service Type
    - Tenure Length
-2. Enter numerical values:
+2. Enter numerical values for tenure and charges
    - Monthly Charges ($)
    - Total Charges ($)
-3. Click "Predict" to get:
-   - "Likely to Stay" or 
-   - "Likely to Churn"
-4. Provide feedback if actual outcome is known
+3. Click "Predict" for instant analysis
+4. View prediction: "Likely to Churn" or "Likely to Stay"
+5. (Optional) Provide feedback if actual outcome is known
 
 
+<a id="technology-stack"></a>
+## Technology Stack
+| Component | Technology |
+|-----------|-------------|
+| Frontend | HTML5, CSS3, JavaScript  |
+| Backend | Flask (Python)  |
+| Machine Learning | scikit-learn Random Forest |
+| Data Processing | Pandas, NumPy |
+| Feedback Storage | OpenPyXL (Excel) |
+| Deployment | Gunicorn WSGI Server |
+
+   
 <a id="installation"></a>
 ## Installation  
 
@@ -69,25 +79,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-<a id="usage"></a>
-## Usage
-1. Select customer parameters from dropdowns
-2. Enter numerical values (tenure, charges)
-3. Click "Predict" for instant analysis
-4. (Optional) Provide feedback via toggle
-5. View prediction: "Likely to Churn" or "Likely to Stay"
-
-<a id="technology-stack"></a>
-## Tech Stack
-| Component | Technology |
-|-----------|-------------|
-| Frontend | HTML5, CSS3, JavaScript  |
-| Backend | Flask (Python)  |
-| Machine Learning | scikit-learn Random Forest |
-| Data Processing | Pandas, NumPy |
-| Feedback Storage | OpenPyXL (Excel) |
-| Deployment | Gunicorn WSGI Server |
 
 <a id="feedback-system"></a>
 ## Feedback System
