@@ -8,7 +8,7 @@
 
 </div>
 <p align="center">
-  <img src="https://github.com/UjuAyoku/churn-predictor/blob/main/churn.PNG" alt="Logo" width="400">
+  <img src="https://github.com/UjuAyoku/churn-predictor/blob/main/churn.PNG" alt="Logo" width="280">
 </p>
 
 ## Table of Contents
