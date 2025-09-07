@@ -7,6 +7,9 @@
 [![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
 
 </div>
+<p align="center">
+  <img src="https://github.com/UjuAyoku/churn-predictor/blob/main/churn.PNG" alt="Logo" width="400">
+</p>
 
 ## Table of Contents
 - [Business Impact](#business-impact)
