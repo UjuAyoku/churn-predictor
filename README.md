@@ -36,6 +36,15 @@ Customer churn costs telecom companies **millions of dollars annually**. This to
 - Feedback system to improve model accuracy
 - Single-click predictions
 
+## Research Report
+If you are interested in the research methodology behind this project, including:
+- Problem framing
+- Experimental setup
+- Evaluation metrics
+- Results & limitations
+- Future work
+
+[View Research Writeup](https://github.com/UjuAyoku/churn-predictor/blob/main/research-report.md)
 
 <a id="usage"></a>
 ## Usage
