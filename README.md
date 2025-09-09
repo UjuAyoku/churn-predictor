@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>Customer Churn Predictor</h1>
-  <h3>A machine learning model that identifies customers at high risk of cancellation, enabling businesses to launch proactive retention strategies.</h3>
+  <h3>A machine learning solution that identifies customers at high risk of cancellation, enabling businesses to launch proactive retention strategies.</h3>
   
 [![Live Demo](https://img.shields.io/badge/Try-Live_Demo-green)]()
 
