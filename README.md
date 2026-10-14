@@ -84,11 +84,6 @@ git clone https://github.com/UjuAyoku/churn-predictor.git
 pip install -r requirements.txt
 ```
 
-#### Launch application
-```bash
-streamlit run app.py
-```
-
 <a id="feedback-system"></a>
 ## Feedback System
 Help improve the model by choosing the actual outcome from the drop down menu and submitting feedback.
