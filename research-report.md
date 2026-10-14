@@ -23,7 +23,6 @@ Customer churn poses a major risk to subscription-based businesses. Traditional 
 - XGBoost achieved the highest ROC-AUC (0.87) vs. Random Forest (0.82) and Logistic Regression (0.75).
 - SHAP analysis revealed tenure length and monthly charges as strongest churn drivers, consistent with domain knowledge.
 - Actionable insights: short-tenure customers with high charges = highest risk segment.
-- Deployment enabled real-time scoring, supporting proactive retention strategies that reduced churn by 8% in pilot tests.
   
 ## Future Work
 - Extend from static prediction to reinforcement learning for retention policies (e.g., optimize personalized discount offers).
